@@ -13,17 +13,17 @@ $(document).ready(function() {
 		  "info": "Showing page _PAGE_ of _PAGES_",
 		  "infoEmpty": "No records available",
 		  "infoFiltered": "(filtered from _MAX_ total records)"
-		}
-		// "columnDefs": [
-		//   {
-		//       "targets": [ 2 ], // Starts from 0
-		//       "visible": false, // True or False
-		//       "searchable": false 
-		//   },
-		//   {
-		//       "targets": [ 3 ], // Starts from 0
-		//       "visible": false // True or False
-		//   }
-		// ]
+		},
+		"columnDefs": [
+		  {
+		      "targets": [ 2 ], // Starts from 0
+		      "visible": false, // True or False
+		      "searchable": false 
+		  },
+		  {
+		      "targets": [ 3 ], // Starts from 0
+		      "visible": false // True or False
+		  }
+		]
 	});
 });

@@ -1,0 +1,42 @@
+@media only screen and (max-width: 767px) {
+
+	/*------- Responsive Table CSS Starts -------*/
+
+table.dataTable>tbody>tr.child ul.dtr-details { width: 100%; }
+table.dataTable>tbody>tr.child span { width: 50%; }
+
+	/*------- Responsive Table CSS Ends -------*/
+
+	/*------- DataTable Section Starts -------*/
+
+.bg-datatable { padding: 15px; }
+
+	/*------- DataTable Section Ends -------*/
+
+	/*------- Table Dropdown Value CSS Starts -------*/
+
+div.dataTables_wrapper div.dataTables_length label { font-size: 1.5rem; }
+
+	/*------- Table Dropdown Value CSS Ends -------*/
+
+	/*------- Showing Page Text CSS Starts -------*/
+
+div.dataTables_wrapper div.dataTables_info { margin-top: 15px; }
+
+	/*------- Showing Page Text CSS Ends -------*/
+
+	/*------- Pagination CSS Starts -------*/
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination { margin: 15px 0 0; }
+.pagination > li > a, 
+.pagination > li > span { font-size: 1.2rem; padding: 6px 9px; }
+.pagination > .disabled > a,
+.pagination > .disabled > a:focus, 
+.pagination > .disabled > a:hover,
+.pagination > .disabled > span,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > span:hover { font-size: 1.2rem; }
+
+	/*------- Pagination CSS Ends -------*/
+
+}
