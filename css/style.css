@@ -1,0 +1,61 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Barlow-Light"; src: url("../fonts/Barlow-Light.otf"); }
+@font-face { font-family: "Barlow-Regular"; src: url("../fonts/Barlow-Regular.otf"); }
+@font-face { font-family: "Barlow-Medium"; src: url("../fonts/Barlow-Medium.otf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html { letter-spacing: 1px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- DataTable Section Starts -------*/
+
+.bg-datatable { padding: 50px 15px; }
+.table-custom > thead > tr > th,
+.table-custom > tfoot > tr > th { color: #000; font: 1.8rem/1.42857143 "Barlow-Medium"; }
+.table-custom > tbody > tr > td { color: #000; font: 1.6rem/1.42857143 "Barlow-Regular"; }
+table.dataTable { margin: 0 !important; }
+
+/*------- DataTable Section Ends -------*/
+
+/*------- Table Dropdown Value CSS Starts -------*/
+
+div.dataTables_wrapper div.dataTables_length label { color: #000; font: 1.6rem/1.42857143 "Barlow-Regular"; margin-bottom: 30px; text-transform: capitalize; }
+div.dataTables_wrapper div.dataTables_length label > select.form-control { border: 1px solid #000; color: #000; font: 1.6rem/1.42857143 "Barlow-Medium"; height: 40px; line-height: 40px; padding: 6px 10px; }
+div.dataTables_wrapper div.dataTables_length label > select.form-control:focus,
+div.dataTables_wrapper div.dataTables_length label > select.form-control:active:focus { border-color: #000; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; }
+
+/*------- Table Dropdown Value CSS Ends -------*/
+
+/*------- Table Search Text and Textbox CSS Starts -------*/
+
+div.dataTables_wrapper div.dataTables_filter label { color: #000; font: 1.6rem/1.42857143 "Barlow-Regular"; margin-bottom: 30px; }
+div.dataTables_wrapper div.dataTables_filter input.form-control { border: 1px solid #000; }
+div.dataTables_wrapper div.dataTables_filter input.form-control:focus,
+div.dataTables_wrapper div.dataTables_filter input.form-control:active:focus { border-color: #000; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; }
+
+/*------- Table Search Text and Textbox CSS Ends -------*/
+
+/*------- Showing Page Text CSS Starts -------*/
+
+div.dataTables_wrapper div.dataTables_info { color: #000; font: 1.6rem/1.42857143 "Barlow-Regular"; padding: 0; margin-top: 30px; }
+
+/*------- Showing Page Text CSS Ends -------*/
+
+/*------- Pagination CSS Starts -------*/
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination { margin: 30px 0 0; }
+.pagination > li > a, 
+.pagination > li > span { color: #000; font: 1.6rem/1.42857143 "Barlow-Regular"; }
+.pagination > .disabled > a,
+.pagination > .disabled > a:focus, 
+.pagination > .disabled > a:hover,
+.pagination > .disabled > span,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > span:hover { color: #777; font: 1.6rem/1.42857143 "Barlow-Regular"; }
+
+/*------- Pagination CSS Ends -------*/
